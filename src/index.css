@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.question-info {
+  margin: 10px;
+  display: flex;
+  
+ }
+.question-info > div > span:nth-child(2) {
+  color: #969696;
+  font-size: 16px;
+}
+
+.question-Card {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid #dad7d7;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.question-info > div > span:first-child {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.question-info > div > span:nth-child(2) {
+  color: #969696;
+  font-size: 16px;
+}
+.question-info > div > div {
+  color: #969696;
+  font-size: 15px;
+}
+.question-info > div > p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.submit {
+  padding: 10px;
+  width: 200px ;
+  height: 40px;
+  
+}
+
+.Badge{
+  margin-bottom: 15px
+}
+
+/***************404 Style****************************/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.score {
+  margin-top: 10px;
+}
+
+.score-info {
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 5px;
+  color: green;
+  width: 410px;
+  max-width: 600px;
+  padding: 10px;
+  margin-right: auto;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid blue;
+  border-radius: 3px;
+  
+}
+.list{
+  list-style-type:none;
+}
+
+.nav-items{
+  color: white;
+  text-decoration:none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.nav-items{
+  font-size: 16px;
+  font-weight: bold;
+}
